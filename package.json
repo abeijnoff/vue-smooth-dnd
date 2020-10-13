@@ -1,6 +1,6 @@
 {
   "name": "vue-smooth-dnd",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "Vue wrappers for smooth-dnd",
   "author": "Kutlu Sahin",
   "homepage": "https://kutlugsahin.github.io/vue-smooth-dnd/",
@@ -57,8 +57,8 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "jest": "^23.4.1",
-    "rollup": "^0.67.3",
-    "rollup-plugin-buble": "^0.19.1",
+    "rollup": "^0.67.4",
+    "rollup-plugin-buble": "^0.19.8",
     "rollup-plugin-commonjs": "^8.4.1",
     "rollup-plugin-license": "^0.6.0",
     "rollup-plugin-typescript2": "0.14.0",
