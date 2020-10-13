@@ -1,9 +1,10 @@
 import { constants } from 'smooth-dnd';
 import { getTagProps, validateTagProp } from './utils';
+import { h } from 'vue'
 
-const wrapChild = (createElement, ctx) => {
+const wrapChild = (h, ctx) => {
   const tagProps = getTagProps(ctx, constants.wrapperClass);
-  return createElement(
+  return h(
     tagProps.value,
     Object.assign({}, tagProps.props),
     ctx.$slots.default
@@ -18,7 +19,7 @@ export default {
       default: 'div'
     }
   },
-  render: function (createElement) {
-    return wrapChild(createElement, this);
+  render: function () {
+    return wrapChild(h, this);
   }
 };
